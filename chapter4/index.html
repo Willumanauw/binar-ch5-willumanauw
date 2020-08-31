@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main" class="container">
+     <div class="header">
+         <img src="assets/logo1.png" alt="" onclick="">
+         <h1>ROCK PAPER SCISSORS</h1>
+     </div>
+     <div class="gameContent">
+         <div class="playerCom">
+             <div class="player"><h3>PLAYER 1 </h3></div>
+             <div class="computer"><h3>COM</h3></div>
+         </div>
+         <div class="rocks">
+             <button id="rockPlayer" class="buttons" data-selection="rock" ><img src="assets/batu.png" alt=""> </button>
+             <button class="buttonsC" id="rock"><img src="assets/batu.png" alt=""> </button>
+
+         </div>
+         <div class="papers">
+             <div><button id="paperPlayer" class="buttons" data-selection="paper"><img src="assets/kertas.png" alt=""> </button></div>
+             <div class="vs">
+                 <h2 id="vs">VS</h2>
+            </div>
+             <button class="buttonsC" id="paper"><img src="assets/kertas.png" alt=""> </button>
+         </div>
+         <div class="scissorss">
+            <button id="scissorsPlayer" class="buttons" data-selection="scissors"><img src="assets/gunting.png" alt=""> </button>
+            <button class="buttonsC" id="scissors"><img src="assets/gunting.png" alt=""> </button>        
+         </div>
+         <button id="refresh" class="refresh " onClick="window.location.reload()"><img src="assets/refresh.png" alt=""></button>
+     </div>
+
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>

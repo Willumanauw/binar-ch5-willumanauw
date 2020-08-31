@@ -1,0 +1,159 @@
+body{
+    background-color: #9C835F;
+}
+
+.container{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    width: 60%;
+    height: auto;
+}
+
+img {
+    width: 72px;
+    height: 72px;
+}
+
+/* button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: 100ms;
+} */
+
+.buttons {
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.buttons:hover{
+    transform: scale(1.2);
+}
+
+.buttons:focus{
+    background: #C4C4C4;
+    border-radius: 30px;
+}
+
+.buttonsC {
+    border: none;
+    background: none;
+    cursor: not-allowed;
+}
+
+.refresh{
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.header img{
+    width: 72px;
+    height: 72px;
+}
+
+.header h1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #F9B23D;
+}
+
+.gameContent{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height : auto;
+    justify-content: space-between;
+}
+
+.playerCom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.playerCom h3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.rocks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.papers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vs h2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #BD0000;
+    /* background: #4C9654;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+    height: auto; */
+}
+
+/* .vs h2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #4C9654;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+    height: auto;
+} */
+
+
+.scissorss {
+    display: flex;
+    justify-content: space-between;
+}
+
+.refresh {
+    align-self: center;
+}
+
+.refresh img {
+    width: 50px;
+    height: 50px;
+}
+
+/* #paper, #scissors, #rock {
+    background: #C4C4C4;
+} */
