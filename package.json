@@ -1,0 +1,25 @@
+{
+  "name": "binar-ch5-willumanauw",
+  "version": "1.0.0",
+  "description": "Repository for chapter 5 at Binar Academy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Willumanauw/binar-ch5-willumanauw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Willumanauw/binar-ch5-willumanauw/issues"
+  },
+  "homepage": "https://github.com/Willumanauw/binar-ch5-willumanauw#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
